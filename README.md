@@ -4,6 +4,9 @@
 
 Fixing the os.Exit problem in its dependency and a few other things...
 
+Enhancements:
+* No default progress bar
+
 ## Original Package Info
 
 A Go library to render progress bars in terminal applications. It provides a set of flexible features with a customizable API.
