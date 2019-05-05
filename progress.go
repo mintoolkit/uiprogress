@@ -42,6 +42,10 @@ type Progress struct {
 // New returns a new progress bar with defaults
 func New() *Progress {
 	lw := uilive.New()
+	if lw == nil {
+		return nil
+	}
+	
 	lw.Out = Out
 
 	return &Progress{
