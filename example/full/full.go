@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker-slim/uiprogress"
-	"github.com/docker-slim/uiprogress/util/strutil"
+	"github.com/slimtoolkit/uiprogress"
+	"github.com/slimtoolkit/uiprogress/util/strutil"
 )
 
 var steps = []string{

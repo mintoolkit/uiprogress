@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/docker-slim/uiprogress"
+	"github.com/slimtoolkit/uiprogress"
 )
 
 func main() {
