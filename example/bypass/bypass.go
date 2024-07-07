@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/slimtoolkit/uiprogress"
+	"github.com/mintoolkit/uiprogress"
 )
 
 func main() {

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/slimtoolkit/uilive"
+	"github.com/mintoolkit/uilive"
 )
 
 // Out is the default writer to render progress bars to

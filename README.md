@@ -1,4 +1,4 @@
-# uiprogress [![GoDoc](https://godoc.org/github.com/docker-slim/uiprogress?status.svg)](https://godoc.org/github.com/docker-slim/uiprogress) [![Build Status](https://travis-ci.org/docker-slim/uiprogress.svg?branch=master)](https://travis-ci.org/docker-slim/uiprogress)
+# uiprogress [![GoDoc](https://godoc.org/github.com/mintoolkit/uiprogress?status.svg)](https://godoc.org/github.com/mintoolkit/uiprogress) [![Build Status](https://travis-ci.org/mintoolkit/uiprogress.svg?branch=master)](https://travis-ci.org/mintoolkit/uiprogress)
 
 ## Note
 
@@ -111,7 +111,7 @@ This will produce
 
 #### `Incr` counter
 
-[Bar.Incr()](https://godoc.org/github.com/docker-slim/uiprogress#Bar.Incr) is an atomic counter and can be used as a general tracker, making it ideal for tracking progress of work fanned out to a lots of go routines. The source code for the below example is available at [example/incr/incr.go](example/incr/incr.go)
+[Bar.Incr()](https://godoc.org/github.com/mintoolkit/uiprogress#Bar.Incr) is an atomic counter and can be used as a general tracker, making it ideal for tracking progress of work fanned out to a lots of go routines. The source code for the below example is available at [example/incr/incr.go](example/incr/incr.go)
 
 ```go
 runtime.GOMAXPROCS(runtime.NumCPU()) // use all available cpu cores
@@ -143,7 +143,7 @@ uiprogress.Stop()
 ### Installation
 
 ```sh
-$ go get -v github.com/docker-slim/uiprogress
+$ go get -v github.com/mintoolkit/uiprogress
 ```
 ### Todos
 
@@ -152,4 +152,4 @@ $ go get -v github.com/docker-slim/uiprogress
 
 ### License
 
-uiprogress is released under the MIT License. See [LICENSE](https://github.com/docker-slim/uiprogress/blob/master/LICENSE).
+uiprogress is released under the MIT License. See [LICENSE](https://github.com/mintoolkit/uiprogress/blob/master/LICENSE).
